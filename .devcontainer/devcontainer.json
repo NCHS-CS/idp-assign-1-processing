@@ -1,0 +1,26 @@
+{
+  "name": "Python Classroom Environment",
+  // Specify exact Python version (e.g., 3.11 or 3.12)
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}"
+      }
+    }
+  },
+
+  // Automatically installs libraries when the environment is created
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+
+  "remoteUser": "vscode"
+}

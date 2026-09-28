@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1-Click Setup Python Environment",
+      "type": "shell",
+      "windows": {
+        "command": "cmd",
+        "args": [
+          "/c",
+          "if not exist .venv (python -m venv .venv) & .venv\\Scripts\\python.exe -m pip install --upgrade pip && .venv\\Scripts\\pip.exe install -r requirements.txt"
+        ]
+      },
+      "osx": {
+        "command": "test -d .venv || python3 -m venv .venv; .venv/bin/python -m pip install --upgrade pip && .venv/bin/pip install -r requirements.txt"
+      },
+      "linux": {
+        "command": "test -d .venv || python3 -m venv .venv; .venv/bin/python -m pip install --upgrade pip && .venv/bin/pip install -r requirements.txt"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

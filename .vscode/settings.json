@@ -1,0 +1,13 @@
+{
+  // Points VS Code to the root .venv folder (auto-resolves on Windows, macOS, and Linux)
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+
+  // Automatically activates the .venv whenever a student opens the VS Code terminal
+  "python.terminal.activateEnvironment": true,
+
+  // Sets notebook working directory to workspace root
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+
+  // Line numbers in Jupyter notebooks
+  "notebook.lineNumbers": "on"
+}

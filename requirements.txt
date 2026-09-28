@@ -1,0 +1,56 @@
+# ==========================================
+# BASE REQUIREMENT (Only item needed for VS Code Notebooks)
+# Targeted Python Version: 3.13.x
+# ==========================================
+ipykernel
+
+
+# ==========================================
+# CORE DATA SCIENCE & ANALYSIS
+# ==========================================
+# numpy
+# pandas
+# scipy
+# matplotlib
+# seaborn
+# scikit-learn
+# scikit-image
+# xgboost
+# requests
+
+
+# ==========================================
+# GEOSPATIAL ANALYSIS & MAPPING
+# ==========================================
+# geopandas>=0.14.0
+# folium
+# mapclassify
+
+
+# ==========================================
+# WEB SCRAPING & IMAGE PROCESSING
+# ==========================================
+# beautifulsoup4
+# imageio
+
+
+# ==========================================
+# MACHINE LEARNING / DEEP LEARNING
+# ==========================================
+# tensorflow
+# keras
+
+
+# ==========================================
+# JUPYTER LAB & DEV UTILITIES
+# ==========================================
+# jupyterlab
+# ipywidgets
+# nbformat
+# pytest
+# flake8
+# mypy
+# line_profiler
+# graphviz
+# python-Levenshtein
+# func_timeout
