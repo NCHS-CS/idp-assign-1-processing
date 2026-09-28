@@ -35,7 +35,8 @@ Lab Computers:
 1. Click the green **Code** button at the top right of this repository.
 2. Select the **Codespaces** tab and click **Create codespace on main**.
 3. Wait for the environment to build (1–2 minutes). 
-4. Open `processing.ipynb`. The Python kernel will connect automatically—press **Run All** to test!
+4. You do not need to run the build task, so skip this step
+5. Open `processing.ipynb`. The Python kernel will connect automatically—press **Run All** to test!
 
 ---
 
