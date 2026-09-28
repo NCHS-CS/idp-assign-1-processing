@@ -1,7 +1,7 @@
 {
   "name": "Python Classroom Environment",
   // Specify exact Python version (e.g., 3.11 or 3.12)
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.13-bullseye",
 
   "customizations": {
     "vscode": {
