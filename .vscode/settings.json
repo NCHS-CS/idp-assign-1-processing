@@ -1,8 +1,5 @@
 {
-  // Points VS Code to the root .venv folder (auto-resolves on Windows, macOS, and Linux)
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
-
-  // Automatically activates the .venv whenever a student opens the VS Code terminal
+  // Automatically activates .venv in the terminal when opened locally on Windows/Mac
   "python.terminal.activateEnvironment": true,
 
   // Sets notebook working directory to workspace root
